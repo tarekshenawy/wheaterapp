@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wheaterapp/static/css/main.5d2fdfdb.css",
+    "main.js": "/wheaterapp/static/js/main.2225c0c9.js",
+    "static/js/453.63261c35.chunk.js": "/wheaterapp/static/js/453.63261c35.chunk.js",
+    "static/media/drizzel.png": "/wheaterapp/static/media/drizzel.bf1eab3350ca37ac75cc.png",
+    "static/media/snow.png": "/wheaterapp/static/media/snow.a1bab4977c6b746bbe1b.png",
+    "static/media/humidity.png": "/wheaterapp/static/media/humidity.3743fba4ba6859f095f3.png",
+    "static/media/sunny.png": "/wheaterapp/static/media/sunny.f794832ad72b90c61eb7.png",
+    "static/media/wind.png": "/wheaterapp/static/media/wind.871a02098291f0324c8d.png",
+    "static/media/search.png": "/wheaterapp/static/media/search.48625617a1f89d1ae658.png",
+    "static/media/heavy-rain.png": "/wheaterapp/static/media/heavy-rain.a19c7f6db64dc7f90a56.png",
+    "static/media/clouds.png": "/wheaterapp/static/media/clouds.058d1121e95348721a5e.png",
+    "index.html": "/wheaterapp/index.html",
+    "main.5d2fdfdb.css.map": "/wheaterapp/static/css/main.5d2fdfdb.css.map",
+    "main.2225c0c9.js.map": "/wheaterapp/static/js/main.2225c0c9.js.map",
+    "453.63261c35.chunk.js.map": "/wheaterapp/static/js/453.63261c35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d2fdfdb.css",
+    "static/js/main.2225c0c9.js"
+  ]
+}
