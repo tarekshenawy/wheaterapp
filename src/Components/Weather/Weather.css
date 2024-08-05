@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 .container{
-    width: 350px;
-    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.weather_content{
+    width: 300px;
     text-align: center;
     background-color: darkslateblue;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 10px;
 }
 .search {
@@ -40,22 +46,24 @@
     color: #fff;
 }
 .weatherinfo{
+   
     display: flex;
-    justify-content: space-between;
+   align-items: center;
+   justify-content: space-between;
+   
     color: #fff;
 }
 .weatherinfo img{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 .humidity,.windspeed{
     display: flex;
     align-items: center;
+    gap: 8px;
   
 }
-.text{
-    margin: 8px;
-}
+
 #valid{
     color: red;
     font-size: 17px;

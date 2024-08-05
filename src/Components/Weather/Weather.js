@@ -89,7 +89,9 @@ export default function Weather() {
   return (
     <div className='container'>
 
-        <div className='search'>
+    <div className='weather_content'>
+
+    <div className='search'>
             <input type='text' placeholder='Search' ref={inputref} ></input>
             <img src={searchicon} alt='' width="40px" onClick={showweather}></img>
           
@@ -101,14 +103,14 @@ export default function Weather() {
         <img src={state.image} alt='' className='weathericon' width="90px"></img>
         <div className='country'>
         <p>{Math.round(state.celicius)} °C</p>
-        <h2>{state.country}</h2>
+        <h3>{state.country}</h3>
 
         </div>
        
         <div className='weatherinfo'>
             <div className='humidity'>
                 <img src={humidity} alt='' ></img>
-                <div className='text'>
+                <div >
                     <p>{state.humidity}%</p>
                     <p>humidity</p>
                 </div>
@@ -116,7 +118,7 @@ export default function Weather() {
             </div>
             <div className='windspeed'>
                 <img src={windspeed} alt='' ></img>
-                <div className='text'>
+                <div >
                     <p>{Math.round(state.windspeed)}%</p>
                     <p>wind speed</p>
                 </div>
@@ -126,6 +128,10 @@ export default function Weather() {
         </div>
        
     </div>
+
+    </div>
+
+      
     </div>
   )
 }
